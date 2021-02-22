@@ -7,5 +7,5 @@ Mijn foto
 ![Mijn foto](img/Avatar-st14n.png)
 
 
-Hier volgt een link naar de [website van Zuyd Hogeschool](https://www.zuyd.nl/).
+Hier volgt een link naar [st14n.github.io](https://www.st14n.github.io/).
 
