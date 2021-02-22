@@ -1,42 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first website</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My first website</title>
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+</style>
 </head>
 <body>
-    <h1>I WANT COOKIES</h1>
-    <p id="1">testtest</p>
-    <p class="speciaal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, minima.</p>
-    <a href="https://nu.nl">De website van NU.nl</a>
-    <div></div>
-    <img src="https://www.osinga-ict.nl/wp-content/uploads/2016/06/slow-pc_meme-1200x629.jpg", width="30%", height="30%", alt="Cookie deletion">
-  
-    <!-- commentaar
-    testtest
-    test -->
 
-    <section class="bar-graph bar-graph-horizontal bar-graph-one">
-        <div class="bar-one">
-          <span class="year">2019</span>
-          <div class="bar" data-percentage="69.6%"></div>
-        </div>
-        <div class="bar-two">
-          <span class="year">2018</span>
-          <div class="bar" data-percentage="71%"></div>
-        </div>
-        <div class="bar-three">
-          <span class="year">2017</span>
-          <div class="bar" data-percentage="74.7%"></div>
-        </div>
-        <div class="bar-four">
-          <span class="year">2019</span>
-          <div class="bar" data-percentage="76.8%"></div>
-        </div>
-      </section>
+<div style="text-align:center">
+</div>
+
+<!-- Introductie gedeelte -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Mijn foto</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Student @Zuyd Hogeschool</b></h1>
+      <p><span style="font-size:36px">My first website.</span> Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button onclick="location.href='https://st14n.github.io/my-hidden-awesome-project/'"class="button">Mijn github.io</button>
+    </div>
+    <div class="column-33">
+        <img src="/img/Avatar-st14n.png" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<!-- James Bond Dataset gedeelte -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="img/tomaat-tekening.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>James Bond</b></h1>
+      <h1 class="large-font" style="color:red;"><b>Rotten tomatoes!</b></h1>
+      <p><span style="font-size:36px">My beautiful drawing!</span> Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button class="button" style="background-color:red">Bigger image</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
