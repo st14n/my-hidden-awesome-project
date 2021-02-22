@@ -1,4 +1,4 @@
-# st14n.github.io
+# my-hidden-awesome-project
 
 ## Test repository minor Data Visualisation | Zuyd Hogeschool | 1824309schmitz
 
