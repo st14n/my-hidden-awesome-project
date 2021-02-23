@@ -1,0 +1,40 @@
+  .apples {
+    height: 50px;
+    width: 500px;
+    background-color: #80aaff;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .bananas {
+    height: 50px;
+    width: 300px;
+    background-color: #ff99ff;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .oranges {
+    height: 50px;
+    width: 400px;
+    background-color: #ffaa80;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .cherries {
+    height: 50px;
+    width: 100px;
+    background-color: #ffff80;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .apples:hover {
+    background-color: #00ff00;
+  }
+  .bananas:hover {
+    background-color: #7700b3;
+  }
+  .oranges:hover {
+    background-color: #ffff00;
+  }
+  .cherries:hover {
+    background-color: #0000ff;
+  }
