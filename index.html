@@ -9,6 +9,19 @@
 * {
   box-sizing:border-box;
 }
+  
+svg.cross {  
+background: silver;  
+margin: 50px auto;  
+display: block;  
+} 
+
+svg.cross path {  
+fill: gold;  
+stroke: red;  
+stroke-width: 0.1;  
+stroke-linejoin: round;  
+} 
 
 body {
   margin: 0;
@@ -72,13 +85,13 @@ img {
 <div class="container">
   <div class="row">
     <div class="column-66">
-      <h1 class="xlarge-font"><b>Mijn foto</b></h1>
+      <h1 class="xlarge-font"><b>My photo</b></h1>
       <br></br>
       <h1 class="large-font" style="color:MediumSeaGreen;"><b>Student @Zuyd Hogeschool</b></h1>
       <br></br>
-      <p><span style="font-size:36px">My first website.</span> Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p><span style="font-size:36px">My first website.</span> Welcome! Watch me progress during the minor Data Visualization!</p>
       <br></br>
-      <button style="background-color:MediumSeaGreen" onclick=" window.open('https://st14n.github.io/my-hidden-awesome-project/','_blank')"class="button">Mijn github.io</button>
+      <button style="background-color:MediumSeaGreen" onclick=" window.open('https://st14n.github.io/my-hidden-awesome-project/','_blank')"class="button">My github.io</button>
     </div>
     <div class="column-33">
         <img src="img/Avatar-st14n.png" alt="Avatar" width="335" height="471">
@@ -97,9 +110,9 @@ img {
       <br></br>
       <h1 class="large-font" style="color:red;"><b>Rotten tomatoes!</b></h1>
       <br></br>
-      <p><span style="font-size:36px">My beautiful drawing.</span> Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p><span style="font-size:36px">Budget versus BOX earnings.</span>The bigger the tomato, the more was earned. The higher the position in the plant, the more money that went into production.</p>
       <br></br>
-      <button style="background-color:red" onclick=" window.open('https://st14n.github.io/my-hidden-awesome-project/img/tomaat-tekening.jpg','_blank')" class="button">Grotere afbeelding</button>
+      <button style="background-color:red" onclick=" window.open('https://st14n.github.io/my-hidden-awesome-project/img/tomaat-tekening.jpg','_blank')" class="button">Bigger image</button>
     </div>
   </div>
 </div>
@@ -112,9 +125,9 @@ img {
             <br></br>
             <h1 class="large-font" style="color:royalblue"><b>I like Cherries!</b></h1>
             <br></br>
-            <p><span style="font-size:36px">A beautiful bar chart.</span> Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p><span style="font-size:36px">A beautiful bar chart.</span>Hovering over a bar will change it to white with a bigger border.</p>
             <br></br>
-            <button style="background-color:royalblue" onclick=" window.open('https://zzzzz','_blank')" class="button">Dummy knop</button>
+            <button style="background-color:royalblue" onclick=" window.open('https://zzzzz','_blank')" class="button">Dummy</button>
         </div>
         <div class="column-33">
           <h1 style="font-size:20px">Apples</h1>
@@ -132,5 +145,69 @@ img {
         </div>
     </div>
   </div>
+
+<!-- SVG gedeelte 1-->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="img/somethingworthseeing_edited.svg" alt="somethingworthseeing_edited" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>SVG 1</b></h1>
+      <br></br>
+      <h1 class="large-font" style=color:chocolate><b>Somethingworthseeing.</b></h1>
+      <br></br>
+      <p><span style="font-size:36px">The edited picture.</span> Colors adjusted as described.</p>
+      <br></br>
+      <button style="background-color:chocolate" onclick=" window.open('https://zzzzz','_blank')" class="button">Dummy</button>
+    </div>
+  </div>
+</div>
+
+<!-- SVG gedeelte 2-->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>SVG 2</b></h1>
+      <br></br>
+      <h1 class="large-font" style=color:pink><b>Square with a diagonal line.</b></h1>
+      <br></br>
+      <p><span style="font-size:36px">Beautiful square!</span> It features a diagonal line starting in the middle and down right-down. </p>
+      <br></br>
+      <button style="background-color:pink" onclick=" window.open('https://zzzzz','_blank')" class="button">Dummy</button>
+    </div>
+    <div class="column-33">
+      <svg width="100" height="100" viewBox="0 0 100 100" style="background: pink;"> 
+        <path d="M50 50 L100 100" stroke="black" /> 
+      </svg>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+<!-- SVG gedeelte 3-->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33" style=background-color:gray>
+    <svg class="cross" width="500" viewBox="0 0 5 5"> 
+
+      <path d="M2 1 h1 v1 h1 v1 h-1 v1 h-1 v-1 h-1 v-1 h1 z" /> 
+
+  </svg> 
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>SVG 3</b></h1>
+      <br></br>
+      <h1 class="large-font" style=color:gold><b>Golden cross.</b></h1>
+      <br></br>
+      <p><span style="font-size:36px">I made a golden cross!</span> Check it out here.</p>
+      <br></br>
+      <button style="background-color:gold" onclick=" window.open('https://zzzzz','_blank')" class="button">Dummy</button>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>

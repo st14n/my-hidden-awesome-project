@@ -27,14 +27,22 @@
     border-width: 2px;
   }
   .apples:hover {
-    background-color: #00ff00;
+    background-color: #ffffff;
+    cursor: help;
+    border-width: 3px;
   }
   .bananas:hover {
-    background-color: #7700b3;
+    background-color: #ffffff;
+    cursor: help;
+    border-width: 3px;
   }
   .oranges:hover {
-    background-color: #ffff00;
+    background-color: #ffffff;
+    cursor: help;
+    border-width: 3px;
   }
   .cherries:hover {
-    background-color: #0000ff;
+    background-color: #ffffff;
+    cursor: help;
+    border-width: 3px;
   }
